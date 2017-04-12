@@ -6,10 +6,22 @@
     <description>Recent content on Get your business internet ready</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Apr 2017 18:11:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2017 19:42:52 +0800</lastBuildDate>
     
 	<atom:link href="www.zeromonthlycost.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>thanks</title>
+      <link>www.zeromonthlycost.com/thanks/</link>
+      <pubDate>Wed, 12 Apr 2017 19:42:52 +0800</pubDate>
+      
+      <guid>www.zeromonthlycost.com/thanks/</guid>
+      <description>thanks for ordering!
+While waiting for our account manager to contact you, you can take a look at http://themes.gohugo.io/ to see what kind of layout you like.
+If you do not have photos available, free beautiful images are available at http://www.unsplash.com. Thats where we usually go to to get images for our customers.
+You should expect to get an email within the next working day.</description>
+    </item>
     
     <item>
       <title>order</title>
