@@ -433,6 +433,33 @@
 		}
 	};
 
+	var orderAnimate = function() {
+		var order = $('#fh5co-order');
+		if ( order.length > 0 ) {	
+
+			order.waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					setTimeout(function() {
+						order.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
 
 	
 	
@@ -462,6 +489,7 @@
 		introAnimate();
 		workAnimate();
 		testimonialAnimate();
+		orderAnimate();
 		servicesAnimate();
 		aboutAnimate();
 		countersAnimate();

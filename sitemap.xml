@@ -2,13 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/www.zeromonthlycost.com/order/</loc>
-    <lastmod>2017-04-12T17:24:42+08:00</lastmod>
+    <loc>www.zeromonthlycost.com/order/</loc>
+    <lastmod>2017-04-12T18:11:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/www.zeromonthlycost.com/</loc>
-    <lastmod>2017-04-12T17:24:42+08:00</lastmod>
+    <loc>www.zeromonthlycost.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>www.zeromonthlycost.com/</loc>
+    <lastmod>2017-04-12T18:11:03+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>www.zeromonthlycost.com/tags/</loc>
     <priority>0</priority>
   </url>
   
