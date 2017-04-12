@@ -612,6 +612,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
   padding: 4em 0;
+  word-break: break-word;
+
 }
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
@@ -973,6 +975,8 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 100%;
   position: relative;
+  word-break: break-word;
+
 }
 @media screen and (max-width: 992px) {
   .fh5co-person {
@@ -1409,3 +1413,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style3.css.map */
+
+#fh5co-about pre code {
+    word-break: break-word;
+}
+
+#fh5co-position pre code {
+    word-break: break-word;
+}
