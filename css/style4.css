@@ -494,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
@@ -610,27 +610,26 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-faqs {
   padding: 4em 0;
-  word-break: break-word;
 
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-faqs {
     padding: 2em 0;
   }
 }
 
-#fh5co-services, #fh5co-work, #fh5co-counters {
+#fh5co-services, #fh5co-work, #fh5co-counters,#fh5co-faqs {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-work, #fh5co-counters {
+  #fh5co-services, #fh5co-work, #fh5co-counters,#fh5co-faqs{
     padding: 4em 0;
   }
 }
 
-#fh5co-services {
+#fh5co-services , #faqs{
   background-color: #A4D792;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMyMTgyNWMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2E0ZDc5MiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
@@ -644,7 +643,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-services:before, #fh5co-services:after {
+#fh5co-services:before, #fh5co-faqs:before, #fh5co-services:after, #fh5co-faqs:after {
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
@@ -659,22 +658,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 101%;
 }
-#fh5co-services:before {
+#fh5co-services:before , #fh5co-faqs:before{
   top: 0;
   margin-top: -35px;
 }
-#fh5co-services:after {
+#fh5co-services:after, #fh5co-faqs:after {
   bottom: 0;
   margin-bottom: -35px;
 }
-#fh5co-services .fh5co-service {
+#fh5co-services .fh5co-service , #fh5co-faqs .fh5co-faqs {
   padding-right: 30px;
 }
-#fh5co-services h3 {
+#fh5co-services h3, #fh5co-faqs h3 {
   font-size: 24px;
   color: #fff;
 }
-#fh5co-services .icon {
+#fh5co-services .icon, #fh5co-faqs .icon {
   font-size: 70px;
   margin-bottom: 30px;
   display: -moz-inline-stack;
@@ -685,10 +684,10 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services .icon:before {
   color: #fff;
 }
-#fh5co-services .section-heading h2 {
+#fh5co-services .section-heading h2, #fh5co-faqs .section-heading h2{
   color: #fff;
 }
-#fh5co-services .section-heading h2.left-border:after {
+#fh5co-services .section-heading h2.left-border:after , #fh5co-faqs .section-heading h2.left-border:after{
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -833,7 +832,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 #fh5co-testimonials .box-testimony .author a {
-  color: #A4D792;
+  color: #21825c;
 }
 #fh5co-testimonials .box-testimony .author a:hover {
   text-decoration: underline;
@@ -1420,5 +1419,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-position pre code {
+    word-break: break-word;
+}
+
+#fh5co-faqs pre code {
     word-break: break-word;
 }

@@ -6,10 +6,20 @@
     <description>Recent content on Get your business internet ready</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Apr 2017 19:42:52 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 14 Apr 2017 14:26:47 +0800</lastBuildDate>
     
 	<atom:link href="www.zeromonthlycost.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pay</title>
+      <link>www.zeromonthlycost.com/pay/</link>
+      <pubDate>Fri, 14 Apr 2017 14:26:47 +0800</pubDate>
+      
+      <guid>www.zeromonthlycost.com/pay/</guid>
+      <description>You are paying a one time service fee of USD$500 for:
+ 1 Year registration of a new domain name. $30/year for further renewals Set up of 1 infrastructure management email address, infra@yourdomain.com which we will use for registering &amp;amp; managing all other services. Control of account will be handed over to you once job is done. Set up of 1 administrator email address, yourname@yourdomain.com. Which you can use to create up to 24 more free email addresses.</description>
+    </item>
     
     <item>
       <title>thanks</title>
@@ -17,9 +27,8 @@
       <pubDate>Wed, 12 Apr 2017 19:42:52 +0800</pubDate>
       
       <guid>www.zeromonthlycost.com/thanks/</guid>
-      <description>thanks for ordering!
-Please proceed to pay at
- While waiting for our account manager to contact you, you can take a look at http://themes.gohugo.io/ to see what kind of layout you like.
+      <description>Thanks for your payment.
+While waiting for our account manager to contact you, you can take a look at http://themes.gohugo.io/ to see what kind of layout you like.
 If you do not have photos available, free beautiful images are available at http://www.unsplash.com. Thats where we usually go to to get images for our customers.
 You should expect to get an email within the next working day.</description>
     </item>
