@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>www.zeromonthlycost.com/landingpage/emailatyourowndomain/</loc>
+    <lastmod>2017-04-22T16:22:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>www.zeromonthlycost.com/whatshouldiusetohostemailatmyowndomain/</loc>
+    <lastmod>2017-04-22T14:51:19+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>www.zeromonthlycost.com/internetmarketing/</loc>
     <lastmod>2017-04-19T14:44:09+08:00</lastmod>
   </url>
@@ -28,7 +38,13 @@
   
   <url>
     <loc>www.zeromonthlycost.com/</loc>
-    <lastmod>2017-04-19T14:44:09+08:00</lastmod>
+    <lastmod>2017-04-22T16:22:45+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>www.zeromonthlycost.com/landingpage/</loc>
+    <lastmod>2017-04-22T16:22:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
